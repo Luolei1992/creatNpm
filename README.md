@@ -1,4 +1,4 @@
-# npm发布demo
+# NPM DEMO
 
 ## Project setup
 ```
@@ -20,32 +20,32 @@ npm run build
 npm run lint
 ```
 
-### npm文件生成
+### npm project build
 ```
 npm run lib
 ```
 
-### npm登录
+### npm login
 ```
 npm login
 ```
 
-### npm发布
+### npm publish
 ```
 npm publish
 ```
 
-### npm安装
+### npm install
 ```
 npm install byzs-ll --save
 ```
-### 引用
+### quote
 ```main.js
 import byzsll from 'byzs-ll'
 import 'byzs-ll/lib/byll.css'
 Vue.use(byzsll)
 
-//使用 
+//use
 //<color-picker />
 //<btn :btn="num" @handleClick="plus"/>
 ```
