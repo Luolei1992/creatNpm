@@ -1,0 +1,72 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, input, textarea, p, th, td, hr, button {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB";
+  color: #333333;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
+  font-size: 14px;
+
+  -webkit-text-size-adjust : none ;
+  -moz-text-size-adjust : none ;
+  -ms-text-size-adjust : none ;
+  text-size-adjust : none;
+}
+input, textarea{
+  outline: none;
+  border: 0 none;
+  // -webkit-appearance:none;
+  -webkit-tap-highlight-color:transparent;  //ios去掉选择阴影
+}
+input::-webkit-input-placeholder{
+  // color:#f9f9f7;
+  font-size: 12px;
+}
+button {
+    border: 0 none;
+}
+i {
+  font-style: normal;
+}
+ol, ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+/* 清理浮动 */
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: "";
+    clear: both;
+    height: 0;
+    line-height:0;
+}
+
+.clearfix {
+    zoom: 1; /* for IE6 IE7 */
+}
+
+/* 单行文字溢出时出现省略号，需设定宽度 */
+.ellips {
+    overflow: hidden;
+    white-space: nowrap;    
+    text-overflow: ellipsis;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+}
